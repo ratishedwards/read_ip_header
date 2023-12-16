@@ -1,0 +1,21 @@
++++++++++++Program to read Ethernet/IP header and print it++++++++++++++++++
+Waiting for a packet...
+Received packet...[66 bytes]
+++++++++++ETHERNET HEADER+++++++++++++++
++ destination_mac : E8:65:D4:AA:5A:38
++ source_mac      : 68:54:5A:BC:09:49
++ type            : 800
+++++++++++++++++++++++++++++++++++++++++
+++++++++++IP Header+++++++++++++++++++++
++ version             : 5
++ header length       : 4
++ type of service     : 0
++ total length        : 52
++ Identification      : 45756
++ Frag Offset         : 64
++ TTL                 : 64
++ Protocol            : 6
++ checksum            : 11009
++ Source address      : 192.168.0.102
++ Destination Address : 199.232.253.229
+++++++++++++++++++++++++++++++++++++++++
